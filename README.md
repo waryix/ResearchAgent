@@ -91,7 +91,7 @@ Linux / macOS:
 python3 -m venv venv
 source venv/bin/activate
 
-Install dependencies:
+#Install dependencies:
 
 pip install -r requirements.txt
 
@@ -126,7 +126,7 @@ If the container already exists:
 docker start research-redis
 
 
-Start Ollama
+#Start Ollama
 
 Check installed models:
 
@@ -141,7 +141,7 @@ The application connects to:
 http://127.0.0.1:11434
 
 
-Start Celery Worker
+#Start Celery Worker
 Celery handles asynchronous research jobs.
 
 Windows
@@ -160,7 +160,7 @@ Expected output:
 . worker.tasks.run_research
 celery@machine ready
 
-Start FastAPI Backend
+#Start FastAPI Backend
 
 Windows
 .\venv\Scripts\activate
@@ -176,7 +176,7 @@ http://127.0.0.1:8000
 Swagger documentation:
 http://127.0.0.1:8000/docs
 
-Run a Research Task
+#Run a Research Task
 
 Open Swagger:
 
@@ -216,7 +216,7 @@ Example response:
 }
 
 
-Complete Startup Order
+#Complete Startup Order
 
 Start services in this order:
 
