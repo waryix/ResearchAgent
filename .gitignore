@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Celery
+celerybeat-schedule
+
+# Vector DB / generated data
+chroma/
+faiss_index/
+
+# Temporary files
+tmp/
+downloads/
