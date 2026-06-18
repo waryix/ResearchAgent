@@ -1,0 +1,48 @@
+# Core
+python-dotenv
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Agent Framework
+langgraph
+langchain
+langchain-community
+langchain-core
+
+# LLM (Ollama)
+langchain-ollama
+
+# Research / Papers
+arxiv
+requests
+beautifulsoup4
+
+# PDF Processing
+pypdf
+pdfplumber
+
+# Vector Database / RAG
+faiss-cpu
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# Async Jobs
+celery
+redis
+
+# Windows Celery compatibility
+eventlet
+
+# Database (for upcoming persistence)
+sqlalchemy
+psycopg2-binary
+
+# Utilities
+tqdm
+numpy
+pandas
