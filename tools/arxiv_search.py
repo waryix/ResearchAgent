@@ -4,7 +4,7 @@ import arxiv
 def search_papers(topic):
 
     client = arxiv.Client(
-        page_size=5,
+        page_size=2,
         delay_seconds=3,
         num_retries=3
     )
@@ -12,7 +12,7 @@ def search_papers(topic):
 
     search = arxiv.Search(
         query=topic,
-        max_results=5
+        max_results=2
     )
 
 

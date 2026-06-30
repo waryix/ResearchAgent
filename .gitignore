@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyc
 
 # Virtual environment
 venv/
@@ -26,3 +27,8 @@ faiss_index/
 # Temporary files
 tmp/
 downloads/
+
+research_db/
+.dist/
+*.sqlite3
+*.db

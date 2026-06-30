@@ -5,7 +5,6 @@ result = research_graph.invoke(
     {
         "topic":
         "Adaptive autoencoders for concept drift detection",
-
         "papers": [],
         "documents": [],
         "summaries": [],
