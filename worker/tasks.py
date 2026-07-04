@@ -59,7 +59,7 @@ def run_research(topic, user_id=None, pdf_paths=None):
             documents = []
             for path in pdf_paths:
                 filename = path.split("/")[-1].replace(".pdf", "")
-                text = extract_text_from_supabase_pdf(path)
+                pdf_text = extract_text_from_supabase_pdf(path)
                 documents.append({"title": filename, "text": text})
             initial_state["documents"] = documents
             initial_state["papers"] = [{"title": d["title"], "pdf": None} for d in documents]
